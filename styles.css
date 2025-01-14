@@ -25,3 +25,19 @@ a {
 h1 {
   color: white;
 }
+
+nav > a {
+  border: 0;
+  background-color: red;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
